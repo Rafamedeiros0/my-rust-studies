@@ -10,15 +10,15 @@ rustup update
 
 First need to run
 
-'''bash
+```bash
 rustc name-file.rs
-'''
+```
 
 later need to run:
 
-'''bash
+```bash
 name-file
-'''
+```
 
 ## automatic formatter (lint)
 
@@ -26,9 +26,9 @@ rustfmt - look the appendix D for more details
 
 but, just basicaly need to run:
 
-'''
+```bash
 rustfmt name-file.rs
-'''
+```
 
 the formatter formate the document
 
@@ -40,38 +40,38 @@ when we use ! we are calling a macro (not a normal function)
 
 ### crate new project with cargo
 
-'''
+```bash
 cargo new project-name
-'''
+```
 
 ### just compile
 
 (create executable in target/debug)
 
-'''
+```bash
 cargo build
-'''
+```
 
 ### compile + run
 
 (create executable in target/debut)
 
-'''
+```bash
 cargo run
-'''
+```
 
 ### how check if the programming is possible to compile (but not compile the code)
 
 cargo check is faster than cargo build, sometimes to check if the code is right, we can just run cargo check:
 
-'''
+```bash
 cargo check
-'''
+```
 
 ### build for release
 
 compile the code with optimizations (create executable in target/release)
 
-'''
+```
 cargo build --release
-'''
+```
